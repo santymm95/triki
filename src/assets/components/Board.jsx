@@ -71,14 +71,14 @@ const Board = () => {
       </div>
 
       <button onClick={resetGame} className="restart-btn">
-        Reiniciar Juego
+        REINICIAR JUEGO
       </button>
 
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-box">
             <h2 className="golden-text">¡GANASTE! 🏆</h2>
-            <p>Ganador: <strong>{winner}</strong></p>
+            <p>GANADOR: <strong>{winner}</strong></p>
             <button className="restart-btn" onClick={resetGame}>
               Jugar de nuevo
             </button>
